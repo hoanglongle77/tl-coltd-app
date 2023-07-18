@@ -1,0 +1,22 @@
+.history-wrapper p strong {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: var(--font-family);
+    text-align: justify;
+}
+
+.history-wrapper span {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--font-family);
+    text-align: justify;
+}
+
+.table-wrapper {
+    padding-top: 30px;
+}
+
+#about-table td {
+    padding: 0 20px 0 0;
+    border: 0;
+}

@@ -1,0 +1,66 @@
+.footer-wrapper {
+    background: var(--color-footer);
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-top-section {}
+
+.row-wrapper {
+    justify-content: center;
+}
+
+.logo-container {
+    padding: 0 10px 20px 10px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.footer-title p {
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    text-transform: uppercase;
+
+}
+
+#business-register {
+    font-weight: 700;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    color: var(--color-text);
+}
+
+.visible-element {
+    padding-top: 40px;
+}
+
+.footer-bottom-section {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: var(--color-copyright);
+}
+
+.footer-bottom-section h6 {
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--color-text);
+}
+
+.information-table td {
+    background: var(--color-footer);
+    border: none;
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+
+.information-table td p {
+    font-weight: 300;
+}
+
+.information-table td strong {
+    font-weight: 700;
+}
