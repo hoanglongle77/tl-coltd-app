@@ -38,11 +38,11 @@ function Layout() {
       <Banner />
       <Navigation />
       <Container className="main-content">
-        <Row className="justify-content-around">
-          <Col sm={3} xs={12}>
+        <Row>
+          <Col xs={12} sm={7} md={6} xl={4}>
             <Sidebar />
           </Col>
-          <Col sm={9} xs={12}>
+          <Col xs={12} sm={5} md={6} xl={8}>
             <Outlet />
           </Col>
         </Row>

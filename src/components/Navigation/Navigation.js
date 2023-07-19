@@ -20,30 +20,9 @@ const Navigation = () => {
             <Nav.Link as={Link} to="/thong-tin-chung">
               Giới thiệu
             </Nav.Link>
-            <NavDropdown title="Sản phẩm" id="basic-nav-dropdown ">
-              <NavDropdown.Item href="#action/3.1">
-                Cột Đèn Chiếu Sáng
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Chế Tạo Máy
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                Gia Công Xạ Điện
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Kết Cấu Thép
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Mạ Kẽm Điện Phân
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Phụ Kiện Viễn Thông
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Sơn Tĩnh Điện
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Trụ Anten</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link as={Link} to="/san-pham">
+              Sản phẩm
+            </Nav.Link>
             <Nav.Link as={Link} to="/tin-tuc-du-an">
               Dự án
             </Nav.Link>

@@ -5,8 +5,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
 
-import "./footer.css";
 import logo from "../../assets/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faIndustry } from "@fortawesome/free-solid-svg-icons";
+import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
+import { faBuilding } from "@fortawesome/free-regular-svg-icons";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
+
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -26,7 +32,13 @@ const Footer = () => {
               <Table responsive className="information-table">
                 <tbody>
                   <tr>
-                    <td>1</td>
+                    <td>
+                      <FontAwesomeIcon
+                        icon={faBuilding}
+                        style={{ color: "#ffffff" }}
+                        size="2xl"
+                      />
+                    </td>
                     <td>
                       <strong>VĂN PHÒNG GIAO DỊCH</strong>
                       <p>Đường Số 02, KCN Hòa Cầm, Quận Cẩm Lệ, Tp. Đà Nẵng</p>
@@ -37,10 +49,14 @@ const Footer = () => {
               <Table responsive className="information-table">
                 <tbody>
                   <tr>
-                    <td>1</td>
+                    <td>
+                      <FontAwesomeIcon icon={faAddressBook} size="2xl" />
+                    </td>
                     <td>
                       <strong>LIÊN HỆ</strong>
-                      <p>Đường Số 02, KCN Hòa Cầm, Quận Cẩm Lệ, Tp. Đà Nẵng</p>
+                      <p>Email: info@truonglongcoltd.com</p>
+                      <p>Email: info@truonglongcoltd.com</p>
+                      <p>Email: info@truonglongcoltd.com</p>
                     </td>
                   </tr>
                 </tbody>
@@ -54,7 +70,13 @@ const Footer = () => {
               <Table responsive className="information-table">
                 <tbody>
                   <tr>
-                    <td>1</td>
+                    <td>
+                      <FontAwesomeIcon
+                        icon={faIndustry}
+                        style={{ color: "#ffffff" }}
+                        size="2xl"
+                      />
+                    </td>
                     <td>
                       <td>
                         <strong>FACTORY</strong>
@@ -69,7 +91,13 @@ const Footer = () => {
               <Table responsive className="information-table">
                 <tbody>
                   <tr>
-                    <td>1</td>
+                    <td>
+                      <FontAwesomeIcon
+                        icon={faBook}
+                        size="2xl"
+                        style={{ color: "#ffffff" }}
+                      />
+                    </td>
                     <td>
                       <td>
                         <strong>CHÍNH SÁCH BÁN HÀNG</strong>

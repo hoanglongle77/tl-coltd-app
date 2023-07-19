@@ -1,4 +1,6 @@
 .main-content {
     padding-top: 70px;
     padding-bottom: 70px;
+    padding-left: 0;
+    padding-right: 0;
 }
