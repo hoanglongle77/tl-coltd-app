@@ -1,17 +1,20 @@
 import React from "react";
+
 import Container from "react-bootstrap/Container";
 import ListGroup from "react-bootstrap/ListGroup";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 import "./sidebar.css";
 
 const Sidebar = () => {
   return (
     <Container className="hotline-side">
-      <Container className="title d-flex flex-row justify-content-center align-items-center ">
-        <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff" }} />{" "}
+      <Container className="title d-flex flex-row justify-content-start align-items-center ">
+        <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff" }} />
         <p>Hỗ trợ trực tuyến</p>
       </Container>
       <Container className="block">

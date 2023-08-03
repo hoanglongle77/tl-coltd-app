@@ -1,0 +1,18 @@
+.box-product {
+    margin: 0 20px 0 20px;
+    padding: 0 0px 20px 0px;
+}
+
+.title-theme {
+    background: var(--color-footer);
+    padding: 10px 15px 10px 15px;
+}
+
+.title-theme h2 {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}

@@ -1,11 +1,13 @@
 import React from "react";
+
 import { Container } from "react-bootstrap";
 import Table from "react-bootstrap/Table";
+
 import "./about.css";
 
 const About = () => {
   return (
-    <Container fluid>
+    <Container className="about-content">
       <Container className="history-wrapper">
         <p>
           <strong>LỊCH SỬ HÌNH THÀNH</strong>
@@ -34,7 +36,14 @@ const About = () => {
           ngành Viễn thông.
         </span>
       </Container>
-      <Container className="table-wrapper" fluid>
+      <Container className="factory-image-container">
+        <img
+          className="img-fluid rounded "
+          src="https://uploads-ssl.webflow.com/5fc06d863124035a044af0ba/5fc85b6b4b3c70e9da887444_cong-ty-san-xuat-co-khi.jpg"
+          alt="Truong Long Factory"
+        />
+      </Container>
+      <Container className="table-wrapper">
         <Table responsive id="about-table">
           <tbody>
             <tr>

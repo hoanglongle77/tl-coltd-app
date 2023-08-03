@@ -4,3 +4,6 @@ export { default as MailForm } from "./MailForm/MailForm";
 export { default as Location } from "./Location/Location";
 export { default as Footer } from "./Footer/Footer";
 export { default as Sidebar } from "./Sidebar/Sidebar";
+export { default as News } from "./News/News";
+export { default as Slider } from "./Slider/Slider";
+export { default as Products } from "./Products/Products";

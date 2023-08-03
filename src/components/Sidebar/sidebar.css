@@ -1,4 +1,7 @@
-.hotline-side {}
+.hotline-side {
+    width: 90%;
+    padding: 0px 0px 20px 0px;
+}
 
 .title {
     background: var(--color-footer);
@@ -10,7 +13,6 @@
 }
 
 .title p {
-    text-align: center;
     margin-bottom: 0;
     font-weight: 700;
     font-size: 16px;

@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Banner from "../Banner/Banner";
+
 import "./navigation.css";
 
 const Navigation = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary fixed-top">
+    <Navbar expand="lg" className="header-content bg-body-tertiary">
       <Container className="navbar-wrapper">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

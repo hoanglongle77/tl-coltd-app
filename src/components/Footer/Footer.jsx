@@ -1,22 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
 
-import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faIndustry } from "@fortawesome/free-solid-svg-icons";
 import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
 import { faBuilding } from "@fortawesome/free-regular-svg-icons";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 
+import logo from "../../assets/logo.png";
+
 import "./footer.css";
 
 const Footer = () => {
   return (
-    <Container fluid className="footer-wrapper">
+    <Container fluid className="footer-content">
       <Container className="footer-top-section">
         <Row className="row-wrapper">
           <Col m={2} sm={4} lg={2}>
